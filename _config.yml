@@ -1,0 +1,13 @@
+# Site settings
+title: Joern Bargmann
+email: me@joern.im
+description: Joern Bargmann is a front end web developer. He works on websites, small web apps and other digital solutions.
+baseurl: "" # the subpath of your site, e.g. /blog/
+permalink: /:categories/:title/
+url: "http://joern.im" # the base hostname & protocol for your site
+twitter_username: joernba
+github_username:  joernba
+bitbucket_username: joernba
+
+# Build settings
+markdown: kramdown

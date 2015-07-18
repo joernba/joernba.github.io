@@ -1,0 +1,33 @@
+/* Layout
+-------------------------------------------------- */
+
+.wrapper {
+  // position: relative;
+  min-height: 100vh;
+  margin: $border-width-negative auto $border-width-negative auto;
+}
+.header,
+.main {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  @include center;
+}
+.main {
+  max-width: $page-max-width;
+
+  @include media(not-large) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+.inner {
+  margin: 0rem auto;
+  width: 60%;
+}
+.footer {
+  margin-bottom: $border-width;
+}
+
+@import 'base/background';

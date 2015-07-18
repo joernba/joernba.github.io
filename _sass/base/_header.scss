@@ -1,0 +1,16 @@
+.header {
+  max-width: $page-max-width;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+  margin-left: 15%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #111;
+  font-size: 1.1rem;
+  @extend %font-sans;
+  @include underline($c-green-light);
+}

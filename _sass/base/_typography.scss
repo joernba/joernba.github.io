@@ -1,0 +1,47 @@
+/* Typography
+-------------------------------------------------- */
+
+// FONT CLASSES
+
+%font-serif {
+  font-family: $f-serif;
+  @include alias;
+}
+
+%font-sans {
+  font-family: $f-sans;
+  font-style: normal;
+  @include alias;
+}
+
+%font-sans-italic {
+  font-family: $f-sans;
+  font-style: italic;
+  @include alias;
+}
+
+body {
+  @extend %font-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend %font-sans;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+h2 {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+h3 {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+h4 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}

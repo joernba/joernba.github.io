@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="inner">
+    <div class="short-bio">
+      {{ site.description }}
+    </div>
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.categories.works %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
