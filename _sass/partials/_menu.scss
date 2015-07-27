@@ -38,7 +38,7 @@
   display: inline;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: $c-green; /* Brown */
+  color: $c-green;
 
   @include font-size(15);
   &:hover {
@@ -49,6 +49,7 @@
 }
 .menu .active {
   color: $c-green-light;
+  border-bottom-color: $c-green-dark;
   &:hover {
     color: $c-green-dark;
     border-bottom-color: $c-green-light;
@@ -81,22 +82,4 @@
 .menu a {
   padding: 0 0 0.15em;
   border-bottom: 2px solid transparent;
-}
-.home-link {
-  a {
-    padding: 0;
-    border: none;
-    margin-top: 6px;
-    transition: all 0.4s $easing-default;
-    text-align: left;
-    &:hover {
-      opacity: 0.66;
-      transition: all 0.4s $easing-default;
-    }
-  }
-  a, img {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-  }
 }
