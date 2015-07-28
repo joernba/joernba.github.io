@@ -5,8 +5,10 @@ permalink: /about/
 weight: 1
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Leaving a promising career in photography behind to go to a foreign country and to learn a new language was one of my best decisions. I am convinced that pushing limits and setting high bars brings out the best in everyone. Learning new skills, languages and being curious is the most important thing to move ourselves forward. I’m looking for something new to learn every day.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I’m currently working as a freelance web designer and developer collaborating with many smart people. Here’s a short list of some of them: [Alessandro Ratti](http://geekbreakfast.it), [Lorenzo Butti](http://lorenzobutti.com), [Diane Le Cam](http://dianelecam.com).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Here you can find what I do [specifically](/what-i-do). And here are some assorted [projects I worked on](/projects).
+
+I’m available for new projects.

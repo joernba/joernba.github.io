@@ -5,4 +5,4 @@ permalink: /contact/
 weight: 4
 ---
 
-Contact Info
+The easiest ways to get in touch is to just <a href="mailto:me@joern.im">drop me a line</a> or contact me on Twitter (<a href="https://twitter.com/joernba">@joernba</a>).
