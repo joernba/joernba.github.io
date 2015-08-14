@@ -32,6 +32,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
   margin: 1rem 0;
+  .content & {
+    color: $c-salmon;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
 }
 h2 {
   font-size: 1.6rem;
