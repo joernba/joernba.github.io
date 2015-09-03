@@ -23,7 +23,13 @@
 }
 .inner {
   margin: 0 auto;
-  width: 60%;
+  width: 40%;
+  @include media(not-large) {
+    width: 60%;
+  }
+  @include media(mobile-only) {
+    width: 100%;
+  }
 }
 .footer {
   margin-bottom: $border-width;
