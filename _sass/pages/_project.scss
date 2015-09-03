@@ -12,13 +12,27 @@
     }
     img {
       margin-top: 40px;
+      @include media(mobile-only) {
+        margin-top: 1em;
+      }
     }
     .projects-content {
       opacity: .96;
       position: absolute;
       height: 700px;
       padding: 10%;
-      width: 50%
+      width: 50%;
+      @include media(not-large) {
+        padding: 10% 3%;
+      }
+      @include media(mobile-only) {
+        position: relative;
+        height: auto;
+        width: 100%;
+      }
+    }
+    @include media(mobile-only) {
+      height: auto;
     }
   }
 }
