@@ -12,4 +12,7 @@ body {
   color: #222222;
   border: $border-width solid $c-page-border;
   background-color: #ffffff;
+  @include media(not-large) {
+    font-size: 1em;
+  }
 }

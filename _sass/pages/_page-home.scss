@@ -2,4 +2,10 @@
   font-size: 3rem;
   line-height: 1.2;
   margin: 6rem 0;
+  @include media(not-large) {
+    font-size: 2rem;
+  }
+  @include media(mobile-only) {
+    font-size: 1rem;
+  }
 }
