@@ -2,7 +2,7 @@
 
     <a class="logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav role="navigation">
+    <nav>
       {% assign pages = site.pages | sort:"weight"  %}
       <ul class="menu">
         {% for p in pages %}
