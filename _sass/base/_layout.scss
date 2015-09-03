@@ -14,13 +14,6 @@
 
   @include center;
 }
-.main {
-
-  @include media(not-large) {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-}
 .inner {
   margin: 0 auto;
   width: 40%;

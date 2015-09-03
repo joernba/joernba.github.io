@@ -12,6 +12,9 @@
     }
     img {
       margin-top: 40px;
+      @include media(not-large) {
+        padding: 0 1em;
+      }
       @include media(mobile-only) {
         margin-top: 1em;
       }
