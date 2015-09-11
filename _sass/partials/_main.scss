@@ -5,7 +5,6 @@ figure,
 .content li {
   @include font-size(18);
 }
-
 .main {
 
   @extend %font-serif;
