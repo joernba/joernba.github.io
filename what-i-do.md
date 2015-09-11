@@ -5,7 +5,7 @@ permalink: /what-i-do/
 weight: 2
 ---
 
-I offer custom web design & development for small to medium size businesses and projects.
+I offer custom web design & development for small to medium size businesses.
 I use the latest technologies the web has to offer. All sites are hand coded, well structured, seo friendly and semantically correct.
 
 ### Technologies
