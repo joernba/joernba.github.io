@@ -5,18 +5,21 @@
 
 %font-serif {
   font-family: $f-serif;
+  font-weight: 100;
   @include alias;
 }
 
 %font-sans {
   font-family: $f-sans;
   font-style: normal;
+  font-weight: 100;
   @include alias;
 }
 
-%font-sans-italic {
-  font-family: $f-sans;
-  font-style: italic;
+%font-sans-bold {
+  font-family: $f-sans-alt;
+  font-style: normal;
+  font-weight: bold;
   @include alias;
 }
 
@@ -25,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %font-sans;
+  @extend %font-sans-bold;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
