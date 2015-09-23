@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <div class="wrapper">
-      {% include header.html %}
+<body>
+  <div class="wrapper">
+    {% include header.html %}
 
-      <div class="main">
-          {{ content }}
-      </div>
-
-      {% include footer.html %}
+    <div class="main">
+      {{ content }}
     </div>
 
-    <!-- Piwik -->
-<script type="text/javascript">
+    {% include footer.html %}
+  </div>
+
+  <!-- Piwik -->
+  <script type="text/javascript">
   var _paq = _paq || [];
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
@@ -26,12 +26,12 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
-</script>
-<noscript><p><img src="//piwik.jbar.at/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+  </script>
+  <noscript><p><img src="//piwik.jbar.at/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
 
 
 
-  </body>
+</body>
 
 </html>
