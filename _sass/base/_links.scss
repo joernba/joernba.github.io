@@ -2,13 +2,13 @@
 /* Links
 -------------------------------------------------- */
 a {
-  transition: background 0.3s $easing-default, border 0.3s $easing-default;
+  transition: background 3s $easing-default, border 3s $easing-default;
   text-decoration: none;
   color: #000000;
 }
 a:hover,
 a:active {
-  transition: background 0.3s $easing-default, border 0.3s $easing-default;
+  transition: background 3s $easing-default, border 3s $easing-default;
   color: #111111;
 }
 h1 a,

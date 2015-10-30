@@ -9,8 +9,10 @@
   margin-left: 15%;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-bottom: 2px solid #111;
   font-size: 1.1rem;
   @extend %font-sans;
   @include underline($c-green-light);
+  &:hover {
+    @include underline(transparent);
+  }
 }
