@@ -11,4 +11,4 @@ I’m currently working as a freelance web designer and developer collaborating 
 
 Here you can find what I do [specifically](/what-i-do). And here are some assorted [projects I worked on](/projects).
 
-I’m available for new projects from mid november.
+I’m available for new projects from {{ site.available_from }}. [Get in touch](mailto:me@joern.im)!

@@ -8,6 +8,7 @@ url: "http://joern.im" # the base hostname & protocol for your site
 twitter_username: joernba
 github_username:  joernba
 bitbucket_username: joernba
+available_from: december
 
 # Build settings
 markdown: kramdown
