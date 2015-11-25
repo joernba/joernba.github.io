@@ -60,5 +60,5 @@ ExpiresDefault A604800
 
 # 3 HOUR - core content, changes quickly
 <FilesMatch "\.(txt|xml|js|css)$">
-ExpiresDefault A172800
+ExpiresDefault A604800
 </FilesMatch>
