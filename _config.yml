@@ -1,4 +1,6 @@
 # Site settings
+version: 2.1
+
 title: Joern Bargmann
 email: me@joern.im
 description: Joern Bargmann is a front end web developer. He makes websites, small web apps and other digital&nbsp;solutions.
