@@ -12,3 +12,5 @@ available_from: december
 
 # Build settings
 markdown: kramdown
+sass:
+    style: compressed
