@@ -1,7 +1,6 @@
 .header {
   max-width: $page-max-width;
   @include media(mobile-only) {
-    background: transparent;
     text-align: center;
   }
 }
