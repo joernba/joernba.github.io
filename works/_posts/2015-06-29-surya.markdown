@@ -5,7 +5,7 @@ categories: works
 assignment: php, html, css, JavaScript
 images: surya/surya.png
 bg-color: "#4396B6"
-content-bg-color: "#F2F0E7"
+content-bg-color: "#5CABDC"
 site-url: http://www.suryaswiss.com/
 sitemap:
   exclude: 'yes'
