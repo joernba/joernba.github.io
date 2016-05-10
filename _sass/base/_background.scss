@@ -1,6 +1,6 @@
 // SITE
 body {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.3;
   position: relative;
   min-width: 320px;
@@ -13,6 +13,6 @@ body {
   border: $border-width solid $c-page-border;
   background-color: #ffffff;
   @include media(not-large) {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 }

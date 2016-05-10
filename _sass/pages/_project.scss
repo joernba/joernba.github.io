@@ -22,13 +22,11 @@
     .projects-content {
       opacity: .96;
       position: absolute;
-      height: 100%;
-      padding: 10%;
+      min-height: 100%;
+      padding: 9%;
       width: 50%;
       @include media(not-large) {
-        padding: 10% 3%;
-      }
-      @include media(mobile-only) {
+        padding: 3%;
         position: relative;
         height: auto;
         width: 100%;
