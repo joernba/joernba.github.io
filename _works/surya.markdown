@@ -2,6 +2,7 @@
 layout: post
 title:  "Surya Swiss Website"
 categories: works
+weight: 3
 assignment: php, html, css, JavaScript
 images: surya/surya.png
 bg-color: "#4396B6"

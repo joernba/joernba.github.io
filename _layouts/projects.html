@@ -5,7 +5,8 @@ layout: default
 <article class="content">
   <h1>Projects</h1>
   <ul class="projects-list">
-    {% for post in site.works %}
+    {% assign posts = site.works | sort:"weight"  %}
+    {% for post in posts %}
       <li style="background-color: {{ post.bg-color }};">
         <div class="projects-content" style="background-color: {{ post.content-bg-color }};">
           <h2>

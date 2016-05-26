@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Draga & Aurel Website"
+weight: 2
 categories: works
 assignment: php, html, css, JavaScript
 images: draga-aurel/draga-aurel-bg.png
