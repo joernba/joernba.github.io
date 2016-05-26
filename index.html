@@ -15,9 +15,15 @@ layout: default
             {{ post.title }}
           </h2>
           {{ post.content }}
+          {% if post.site-url %}
           <div class="project-link">
             <a href="{{ post.site-url }}">Visit Site</a>
           </div>
+          {% else %}
+          <div class="project-link">
+            Site offline
+          </div>
+          {% endif %}
         </div>
         {% for image in post.images %}
           <img src="{{ site.baseurl }}/assets/images/works/{{ image }}" alt="project image - {{ post.title }}">
