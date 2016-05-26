@@ -11,7 +11,8 @@ twitter_username: joernba
 github_username:  joernba
 bitbucket_username: joernba
 available_from: june
-
+collections:
+  - works
 # Build settings
 markdown: kramdown
 sass:
