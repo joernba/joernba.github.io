@@ -20,4 +20,4 @@ web design, interface design, front end development, mobile design, translating 
 
 ### What I don't do
 
-web hosting, website maintenance, systems integration, SEM
+web hosting, systems integration, SEM
