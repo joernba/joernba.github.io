@@ -15,6 +15,7 @@
   font-size: 1.1rem;
   @extend %font-sans;
   @include underline($c-green-light);
+  @include animation('2s ease-out slide-in');
   &:hover {
     @include underline(transparent);
   }
@@ -22,4 +23,9 @@
     margin-top: 7.5rem;
     margin-left: 0;
   }
+}
+@include keyframes(slide-in) {
+  0% { transform: translateY(-60px); opacity: 0; }
+  50% { transform: translateY(-60px); opacity: 0; }
+  90% { transform: translateY(0); opacity: 1; }
 }
