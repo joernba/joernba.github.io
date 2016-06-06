@@ -17,3 +17,12 @@ collections:
 markdown: kramdown
 sass:
     style: compressed
+    
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - CNAME
+  - node_modules
