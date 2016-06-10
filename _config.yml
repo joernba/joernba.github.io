@@ -17,8 +17,6 @@ collections:
 markdown: kramdown
 sass:
     style: compressed
-    
-# Build settings
 exclude:
   - Gemfile
   - Gemfile.lock
