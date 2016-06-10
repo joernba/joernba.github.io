@@ -10,8 +10,10 @@ body {
   padding: 1.5em;
   padding: 0;
   color: #222222;
-  border: $border-width solid $c-page-border;
+  border: $border-width solid;
+  border-color: $c-page-border;
   background-color: #ffffff;
+  transition: border-color 1s ease;
   @include media(not-large) {
     font-size: 1em;
   }
