@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "LAN Architects Website"
-categories: works
 weight: 1
 assignment: php, html, css, JavaScript
 images: lan-architects/lan.png
