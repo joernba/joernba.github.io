@@ -31,12 +31,12 @@
   display: inline;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: $c-green;
+  color: $c-green-dark;
 
   @include font-size(15);
   &:hover {
     text-decoration: none;
-    color: $c-brown-light;
+    color: $c-green-light;
     border-bottom-color: $c-green-light;
   }
 }
@@ -44,7 +44,7 @@
   color: $c-green-light;
   border-bottom-color: $c-green-dark;
   &:hover {
-    color: $c-green-dark;
+    color: $c-green;
     border-bottom-color: $c-green-light;
   }
 }
