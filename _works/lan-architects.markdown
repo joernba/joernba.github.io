@@ -14,4 +14,4 @@ sitemap:
 
 I was asked to build their new website by Nicola Aguzzi from [Undo-Redo](http://www.undo-redo.com) who did the design and concept work. We worked together to get from static layouts to a responsive experience that makes the website work on devices with different screen resolutions from high resolution desktop to small phone screens.
 
-To achieve this I used the excellent [Craft CMS](https://craftcms.com), hosting on [Fortrabbit](https://www.fortrabbit.com) and Amazon S3 asset storage.
+To achieve this I used the excellent [Craft CMS](https://craftcms.com), hosting on [Fortrabbit](https://www.fortrabbit.com) and Amazon S3 storage for assets.
