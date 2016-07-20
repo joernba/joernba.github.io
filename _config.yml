@@ -26,13 +26,13 @@ exclude:
   - node_modules
   
 # Plugins
-mini_magick:
-    thumbnail:
-        source: assets/images/works
-        destination: img/photos/thumbnail
-        resize: "140x140^"
-        crop: "140x140-0x0"
-    medium:
-        source: assets/images/works
-        destination: img/photos/medium
-        resize: "600x400"
+# mini_magick:
+#     thumbnail:
+#         source: assets/images/works
+#         destination: img/photos/thumbnail
+#         resize: "140x140^"
+#         crop: "140x140-0x0"
+#     medium:
+#         source: assets/images/works
+#         destination: img/photos/medium
+#         resize: "600x400"
